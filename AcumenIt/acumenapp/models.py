@@ -1,6 +1,21 @@
 from django.db import models
 
+"""
+Must:
+Write full names for each variable dont use shortcuts.
+dont use capitals for attribute names or variables, 
+only use capitals for Classes and Choices
+Optional:
+Use underscore conventions for all attributes
+"""
 
+
+"""
+Must haves:
+Points for each participant: each participant gets some points for participation depending on the event,
+and gets some more points if he gets merit in those events.
+Add team field
+"""
 class Profile(models.Model):
     YEAR_CHOICES = (('I', 'I'), ('II', 'II'), ('III', 'III'), ('IV', 'IV'))
 
@@ -29,7 +44,11 @@ class Profile(models.Model):
     qid = models.CharField(max_length=10)
 
 
-
+"""
+As mentioned above
+every events should have 2 fields one for points that the participant would get for participation
+and other for merit
+"""
 class Event(models.Model):
     eId = models.CharField(max_length=5, default="NULL", primary_key=True)
     eName = models.CharField(max_length=50)
@@ -38,12 +57,22 @@ class Event(models.Model):
     cost = models.IntegerField(default=0)
 
 
+"""
+Use good names for attributes
+move paid field from team to this, as payment is for different events not for teams
+also move payment mode field to here
+"""
 class EventDetails(models.Model):
     eid = models.ForeignKey('Event', on_delete='CASCADE', max_length=5)
     tid = models.CharField(max_length=20)
     uid = models.ForeignKey('Profile', on_delete='CASCADE', max_length=50)
 
 
+    
+"""
+Better add a team size attribute, becasue each event may require team of different sizes
+Think of any other attributes that would be needed
+"""
 class Team(models.Model):
     Waiting = 'W'
     Running = 'R'
