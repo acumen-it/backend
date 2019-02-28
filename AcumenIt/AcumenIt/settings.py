@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['localhost','127.0.0.1:8000']
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'nithishm999@gmail.com'
-EMAIL_HOST_PASSWORD = 'nithish123'
+EMAIL_HOST_PASSWORD = 'Nithish@123'
 EMAIL_PORT = 587
 
 # Application definition
@@ -144,3 +144,10 @@ LOGIN_REDIRECT_URL = 'dashboard'
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY  = '706687934204-nd4va24b8u6nmbc6ennrnq2u5jpei5g2.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET  = 'SiFXrg4k9tc4BhMziu6jOa64'
 SOCIAL_AUTH_GOOGLE_REDIRECT_URI = 'http://localhost:8000/dashboard'
+
+STATIC_ROOT = "home/AcumenIt/acumenapp/static/"
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
+STATIC_PATH = os.path.join('home/AcimenIt/acimenapp','static')

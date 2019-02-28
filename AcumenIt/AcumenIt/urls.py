@@ -20,11 +20,11 @@ from django.contrib.auth import views as auth_views
 from acumenapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('email/', views.email,name='email'),
-    path('snd/', views.snd_mail, name='sndemail'),
     path('login/', views.login, name='login'),
+    path('', views.home, name='home'),
     path('dashboard/', views.dashboard, name='dashboard'),
    # path('logout/', auth_views.logout, name='logout'),
     path('oauth/', include('social_django.urls', namespace='social')),
+    path('events/', views.events, name='events'),
 
 ]

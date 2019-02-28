@@ -25,7 +25,7 @@ class Profile(models.Model):
     branch = models.CharField(max_length=50, choices=BRANCH_CHOICES, default="IT")
     college = models.CharField(max_length=50)
     phone_number = models.CharField(max_length=10, default="NoNumber")
-    qr_code = models.CharField(max_length=10)
+    qr_code = models.CharField(max_length=10,default=0)
     total_points = models.IntegerField(default=0)
 
 
@@ -50,13 +50,13 @@ class EventDetails(models.Model):
     OFFLINE = 'OFF'
     NONE = 'NONE'
 
-    status_choice = models.CharField(max_length=8, choices=STATUS_CHOICES)
+    status_choice = models.CharField(max_length=8, choices=STATUS_CHOICES,default='RUNNING')
 
     event_id = models.ForeignKey('Event', on_delete='CASCADE', max_length=5)
     team_id = models.CharField(max_length=20)
-    qr_code = models.ForeignKey('Profile', on_delete='CASCADE', max_length=50)
+    qr_code = models.ForeignKey('Profile', on_delete='CASCADE', max_length=50,default=0)
     amount_paid = models.BooleanField(default=False)
-    payment_mode = models.CharField(max_length=10, choices=STATUS_CHOICES)
+    payment_mode = models.CharField(max_length=10, choices=STATUS_CHOICES,default='OFF')
 
 
 
@@ -65,7 +65,7 @@ class Team(models.Model):
     team_id = models.CharField(max_length=20)
     team_size = models.IntegerField(default=0)
     event_id = models.ForeignKey('Event', on_delete='CASCADE', max_length=5)
-    qr_code = models.CharField(max_length=50)
+    qr_code = models.CharField(max_length=50,default=0)
     total_amount = models.IntegerField(default=0)
 
 
