@@ -1,4 +1,4 @@
-"""AcumenIt URL Configuration
+"""AcumenWebSite URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
@@ -15,16 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-from django.contrib.auth import views as auth_views
-
-from acumenapp import views
+from acumenapp import urls,views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login/', views.login, name='login'),
-    path('', views.home, name='home'),
-    path('dashboard/', views.dashboard, name='dashboard'),
-   # path('logout/', auth_views.logout, name='logout'),
-    path('oauth/', include('social_django.urls', namespace='social')),
-    path('events/', views.events, name='events'),
-
+    path('', include('acumenapp.urls'))
 ]
