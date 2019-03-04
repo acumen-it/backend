@@ -1,4 +1,11 @@
 from django.db import models
+from django.contrib.auth.models import User
+
+class Organizer(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.user
 
 class Profile(models.Model):
     YEAR_CHOICES = (('I', 'I'), ('II', 'II'), ('III', 'III'), ('IV', 'IV'))
@@ -18,26 +25,27 @@ class Profile(models.Model):
                       (MECH, 'MECHANICAL'), (CHEMICAL, 'CHEMICAL'),
                       (EIE, 'ELECTRONICS AND INSTRUMENTATION ENGINEERING'), (TEXTILE, 'TEXTILE'))
 
-    name = models.CharField(max_length=30)
-    email = models.CharField(max_length=50, primary_key=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     roll_number = models.CharField(max_length=20, default="1602-70-700-777")
     year = models.CharField(max_length=2, choices=YEAR_CHOICES, default="I")
     branch = models.CharField(max_length=50, choices=BRANCH_CHOICES, default="IT")
     college = models.CharField(max_length=50)
     phone_number = models.CharField(max_length=10, default="NoNumber")
-    qr_code = models.CharField(max_length=10,default=0)
+    qr_code = models.CharField(max_length=30,default=0)
     total_points = models.IntegerField(default=0)
-
+    cost=models.IntegerField(default=0)
 
 class Event(models.Model):
     event_id = models.CharField(max_length=5, default="NULL", primary_key=True)
     event_name = models.CharField(max_length=50)
-    event_count = models.IntegerField(default=0)
-    event_organiser = models.CharField(max_length=20)
+    team_size = models.IntegerField(default=1)
+    event_organiser = models.ForeignKey(User, on_delete=models.CASCADE)
     event_cost = models.IntegerField(default=0)
     participation_points=models.IntegerField(default=0)
     merit_points=models.IntegerField(default=0)
 
+    def __str__(self):
+        return self.event_id
 
 
 class EventDetails(models.Model):
@@ -50,23 +58,24 @@ class EventDetails(models.Model):
     OFFLINE = 'OFF'
     NONE = 'NONE'
 
-    status_choice = models.CharField(max_length=8, choices=STATUS_CHOICES,default='RUNNING')
-
+    status_choice = models.CharField(max_length=8, choices=STATUS_CHOICES)
     event_id = models.ForeignKey('Event', on_delete='CASCADE', max_length=5)
     team_id = models.CharField(max_length=20)
-    qr_code = models.ForeignKey('Profile', on_delete='CASCADE', max_length=50,default=0)
+    qr_code = models.ForeignKey('Profile', on_delete='CASCADE', max_length=50)
     amount_paid = models.BooleanField(default=False)
     payment_mode = models.CharField(max_length=10, choices=STATUS_CHOICES,default='OFF')
 
 
 
+
 class Team(models.Model):
 
-    team_id = models.CharField(max_length=20)
-    team_size = models.IntegerField(default=0)
+    team_id = models.CharField(max_length=20, unique=True)
+    team_size = models.IntegerField(default=1)
     event_id = models.ForeignKey('Event', on_delete='CASCADE', max_length=5)
-    qr_code = models.CharField(max_length=50,default=0)
-    total_amount = models.IntegerField(default=0)
+
+    def __str__(self):
+        return self.event_id
 
 
 
