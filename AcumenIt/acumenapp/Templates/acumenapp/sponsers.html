@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     
   
-      <link rel="stylesheet" href="{% static 'css/SponsersCss/style.css' %}">
-      <link rel="stylesheet" href="{% static 'css/HomeCsss/nav.css' %}">
+      <link rel="stylesheet" href="{% static 'css/SponsersCss/style.css'%}">
+    <link rel="stylesheet" href="{% static 'css/HomeCsss/style.css' %}">
 
   
 </head>
@@ -65,6 +65,7 @@
   <span></span>
   <span></span>
 </div>
+    <img class="mainlogo" src="{% static 'img/HomeImg/A.png' %}" height="50" width="50" onclick="reload()">
 <div class="open-overlay">
         <span class="bar-top"></span>
         <span class="bar-middle"></span>
@@ -72,13 +73,13 @@
       </div>
     <div class="overlay-navigation">
       <nav role="navigation">
-         <ul>
-         <li><a class="h3" href="{% url 'home' %}" data-content="The beginning">Home</a></li>
+           <ul>
+          <li><a class="h3" href="{% url 'home' %}" data-content="The beginning">Home</a></li>
           <li><a class="h3" href="{% url 'events' %}" data-content="I got game">Events</a></li>
           <li><a class="h3" href="{% url 'sponsers' %}" data-content="Only the finest">Sponsors</a></li>
           <li><a class="h3" href="{% url 'team' %}" data-content="Don't hesitate">The Team</a></li>
           <li><a class="h3" href="#" data-content="Memories!">Gallery</a></li>
-             {%if  user.is_authenticated %}
+          {%if  user.is_authenticated %}
             <li><a class="h3" href="{% url 'dashboard' %}" data-content="Curious?">Dashboard</a></li>
              {% else %}
              <li><a class="h3" href="{% url 'registration' %}" data-content="Curious?">Register/Sign in</a></li>
@@ -93,46 +94,35 @@
                         <h2>Made Possible by:</h2>
                 </div>
             </div>
-            <h3 data-aos="zoom-out" align="center" style="color:#ffd700; padding-bottom:20px;">Golden Sponsors</h3>
+            <h3 data-aos="zoom-out" align="center" style="color:#ffd700; padding-bottom:20px;">Title Sponsor</h3>
           
                        <div class="row">
-                        <div data-aos="zoom-out" data-aos-duration="2000" class="item column">
+                        <div data-aos="zoom-out" data-aos-duration="2000" class="item columnmain">
                             <div class="thumb">
-                                <img class="img-responsive" src="https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2017/1-snapchat.jpg"  alt="Thumb">
-                                <h4 align="center" style="color: white; padding-top: 3px;">Lorem</h4>
+                                <img class=" mainsponsor" src="https://lh3.googleusercontent.com/O_G_w_tjgw4FIC-Ddw1vW5CP4eT1BcnqIWL9zj6e_ri3exBdEUYQmaIqJElVGSVhjV12"  alt="Thumb">
+                                <h4 align="center" style="color: white; padding-top: 3px;">Nest Away</h4>
                             </div>
                         </div>                        
-                        <div data-aos="zoom-out" data-aos-duration="2000" class="item column">
-                            <div class="thumb">
-                                <img class="img-responsive" src="https://www.webwise.ie/wp-content/uploads/2017/12/Whatsapp.jpg"   alt="Thumb">
-                                <h4 align="center" style="color: white; padding-top: 3px;">Lorem</h4>
-                            </div>
-                        </div>
-                        <div data-aos="zoom-out" data-aos-duration="2000" class="item column">
-                            <div class="thumb">
-                                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-vMuqaQPmLA_sv27TILxrqHQGj-q_ND8uHJgUNotAhNS6jyhtg"   alt="Thumb">
-                                <h4 align="center" style="color: white; padding-top: 3px;">Lorem</h4>
-                            </div>
-                        </div>
+                      
                     </div>
-                    <h3 data-aos="zoom-out" align="center" style="color:#c0c0c0; padding-bottom:20px;">Silver Sponsors</h3>
-                   <div  class="row">
+                   
+                   <div class="row" style="padding-top: 5%;">
                         <div data-aos="zoom-out" data-aos-duration="2000" class="item column">
                             <div class="thumb">
-                                <img class="img-responsive" src="https://png.pngtree.com/element_our/md/20180626/md_5b321ca97f12d.png"  alt="Thumb">
-                                <h4 align="center" style="color: white; padding-top: 3px;">Lorem</h4>
+                                <img class="img-responsive" src="{% static 'img/SponsersImg/i20.png'%}"  alt="Thumb">
+                                <h4 align="center" style="color: white; padding-top: 3px;">I20</h4>
                             </div>
                         </div>                        
                         <div data-aos="zoom-out" data-aos-duration="2000" class="item column">
                             <div class="thumb">
-                                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-vMuqaQPmLA_sv27TILxrqHQGj-q_ND8uHJgUNotAhNS6jyhtg"   alt="Thumb">
-                                <h4 align="center" style="color: white; padding-top: 3px;">Lorem</h4>
+                                <img class="img-responsive" src="{% static 'img/SponsersImg/image002.png'%}"   alt="Thumb">
+                                <h4 align="center" style="color: white; padding-top: 3px;">IDP</h4>
                             </div>
                         </div>
                         <div data-aos="zoom-out" data-aos-duration="2000" class="item column">
                             <div class="thumb">
-                                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-vMuqaQPmLA_sv27TILxrqHQGj-q_ND8uHJgUNotAhNS6jyhtg"   alt="Thumb">
-                                <h4 align="center" style="color: white; padding-top: 3px;">Lorem</h4>
+                                <img class="img-responsive" src="{% static 'img/SponsersImg/leaf.jpg'%}"    alt="Thumb">
+                                <h4 align="center" style="color: white; padding-top: 3px;">Leaf The Studio</h4>
                             </div>
                         </div>
                     </div>
@@ -140,23 +130,13 @@
                     <div  class="row">
                         <div  data-aos="zoom-out" data-aos-duration="2000" class="item column">
                             <div class="thumb">
-                                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-vMuqaQPmLA_sv27TILxrqHQGj-q_ND8uHJgUNotAhNS6jyhtg"   alt="Thumb">
-                                <h4 align="center" style="color: white; padding-top: 3px;">Lorem</h4>
+                              <div class="col-12 px-0">
+                                <img class="img-responsive" src="{% static 'img/SponsersImg/capture.JPG'%}"    alt="Thumb">
+                                <h4 align="center" style="color: white; padding-top: 3px;">SIG</h4>
                             </div>
                         </div>                        
-                        <div data-aos="zoom-out" data-aos-duration="2000" class="item column">
-                            <div class="thumb">
-                                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-vMuqaQPmLA_sv27TILxrqHQGj-q_ND8uHJgUNotAhNS6jyhtg"   alt="Thumb">
-                                <h4 align="center" style="color: white; padding-top: 3px;">Lorem</h4>
-                            </div>
-                        </div>
-                        <div data-aos="zoom-out" data-aos-duration="2000" class="item column">
-                            <div class="thumb">
-                                <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK-vMuqaQPmLA_sv27TILxrqHQGj-q_ND8uHJgUNotAhNS6jyhtg"   alt="Thumb">
-                                <h4 align="center" style="color: white; padding-top: 3px;">Lorem</h4>
-                            </div>
-                        </div>
                     </div>
+                  </div>
         </div>
     </section>
   
@@ -164,12 +144,17 @@
   <script>
   AOS.init();
 </script>
-<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>
 <script  src="{% static 'js/HomeJs/index.js' %}"></script>
 
-
+<script >
+  function reload()
+  {
+    window.location="../index.html";
+  }
+</script>
 </body>
 
 </html>

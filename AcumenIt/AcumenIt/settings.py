@@ -28,8 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'nithishm999@gmail.com'
-EMAIL_HOST_PASSWORD = 'Nithish@123'
+EMAIL_HOST_USER = 'events@acumenit.in'
+EMAIL_HOST_PASSWORD = 'acumenIT@2K19'
 EMAIL_PORT = 587
 
 # Application definition
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'AcumenWebSite.urls'
+ROOT_URLCONF = 'AcumenIt.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'AcumenWebSite.wsgi.application'
+WSGI_APPLICATION = 'AcumenIt.wsgi.application'
 
 
 # Database

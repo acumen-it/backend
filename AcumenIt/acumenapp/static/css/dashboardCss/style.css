@@ -1,15 +1,18 @@
-html, body { height: 100%; }
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+html, body { height: 100%; overflow-x: hidden; }
 body { margin: 0; background: #000; }
 canvas { display: block; overflow: auto;}
 .waves { position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: -1; }
 
 .heading{
-font-family: 'Nixie One', cursive;
+font-family: 'Julius Sans One', sans-serif;
 color: white;
 font-size: 300%;
 padding-left:7%;
 padding-top:5%;
 }
+
 
 .bt{
 	margin-top: 2%;
@@ -19,7 +22,7 @@ padding-top:5%;
 .text{
 	font-size: 180%;
 	color: white;
-	font-family: 'Nixie One', cursive;
+	font-family: 'Julius Sans One', sans-serif;
 	padding-top: 2%;
 
 }

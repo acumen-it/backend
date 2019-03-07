@@ -18,5 +18,6 @@ from django.urls import path,include
 from acumenapp import urls,views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('acumenapp.urls'))
+    path('', include('acumenapp.urls')),
+    path('reset',include('password_reset.urls'))
 ]

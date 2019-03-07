@@ -93,7 +93,7 @@ nav li a:after {
   margin-left: auto;
   left: 0;
   right: 0;
-  bottom: -350px;
+  bottom: -310px;
   text-transform: none;
   font-family: 'Open sans', sans-serif;
   font-weight: 300;
@@ -141,6 +141,23 @@ nav li:nth-of-type(6) {
 /* ====================================
 Burger king
 ==================================== */
+.Registermodal{
+  position: fixed;
+  left: 0.2rem;
+  top: 0.3rem;
+  z-index: 100;
+  display: block;
+cursor: pointer;
+}
+
+.mainlogo{
+  position: fixed;
+  left: 0.2rem;
+  top: 0.3rem;
+  z-index: 100;
+  display: block;
+cursor: pointer;
+}
 
 .open-overlay {
   position: fixed;
@@ -416,6 +433,8 @@ Animation keyframes
   nav ul li a {
     font-size: 11px;
   }
+
+
   nav ul li .h3{
     padding-top: 50px;
   }
@@ -424,7 +443,7 @@ Animation keyframes
   }
   nav li a:after {
     font-size: 0.6rem;
-    bottom: -100px;
+    bottom: -75px;
   }
   nav li a:hover:after {
     -webkit-transform: translateY(0);

@@ -34,7 +34,6 @@ class Profile(models.Model):
     qr_code = models.CharField(max_length=30,default=0)
     total_points = models.IntegerField(default=0)
     cost=models.IntegerField(default=0)
-
 class Event(models.Model):
     event_id = models.CharField(max_length=5, default="NULL", primary_key=True)
     event_name = models.CharField(max_length=50)
@@ -58,7 +57,7 @@ class EventDetails(models.Model):
     OFFLINE = 'OFF'
     NONE = 'NONE'
 
-    status_choice = models.CharField(max_length=8, choices=STATUS_CHOICES)
+    status_choice = models.CharField(max_length=8, choices=STATUS_CHOICES,default="WAITING")
     event_id = models.ForeignKey('Event', on_delete='CASCADE', max_length=5)
     team_id = models.CharField(max_length=20)
     qr_code = models.ForeignKey('Profile', on_delete='CASCADE', max_length=50)
@@ -79,6 +78,20 @@ class Team(models.Model):
 
 
 
+class Otpgenerator(models.Model):
+    mailid = models.CharField(max_length=40,primary_key=True)
+    otp = models.IntegerField()
+
+
+class Payment(models.Model):
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
+    payment_id = models.CharField(max_length=32)
+    payment_status = models.CharField(max_length=30)
+    payment_request_id = models.CharField(max_length=32)
+    eventname=models.TextField(null=True, blank=True)
+
+    def __str__(self):
+        return ','.join([self.user.email, self.payment_id])
 
 
 

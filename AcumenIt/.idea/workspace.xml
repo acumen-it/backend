@@ -10,55 +10,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acumenapp/views.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+            <state relative-caret-position="39">
+              <caret line="268" column="57" lean-forward="false" selection-start-line="268" selection-start-column="57" selection-end-line="268" selection-end-column="57" />
               <folding>
-                <element signature="e#0#57#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AcumenWebSite/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acumenapp/static/js/HomeJs/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/registration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="97" column="2" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -66,18 +27,23 @@
       <file leaf-file-name="sponsers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/sponsers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#0;n#div#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1551955132242" expanded="false" signature="5776:5807" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="team.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/team.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="238" column="84" lean-forward="false" selection-start-line="238" selection-start-column="84" selection-end-line="238" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -86,28 +52,81 @@
       <file leaf-file-name="events.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/events.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="690" column="83" lean-forward="false" selection-start-line="690" selection-start-column="83" selection-end-line="690" selection-end-column="83" />
+            <state relative-caret-position="121">
+              <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+              <folding>
+                <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#10;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#11;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acumenapp/static/css/SponsersCss/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/home.html">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acumenapp/static/css/SponsersScss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="map3D.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/map3D.html">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acumenapp/static/css/homeCss/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1647">
-              <caret line="256" column="20" lean-forward="false" selection-start-line="256" selection-start-column="17" selection-end-line="256" selection-end-column="20" />
+            <state relative-caret-position="-170">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3d-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acumenapp/static/css/map3dHome/3d-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="964" column="1" lean-forward="false" selection-start-line="964" selection-start-column="1" selection-end-line="964" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3d-normalize.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acumenapp/static/css/map3dHome/3d-normalize.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acumenapp/static/css/HomeCsss/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -119,6 +138,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -129,32 +149,54 @@
       <find>paper</find>
       <find>nav</find>
       <find>overl</find>
+      <find>clicked</find>
+      <find>inpu</find>
+      <find>eventdel</find>
+      <find>clicked2</find>
+      <find>surr</find>
+      <find>3d-</find>
+      <find>./images</find>
     </findStrings>
+    <replaceStrings>
+      <replace>{% static 'img/SponsersImg'</replace>
+    </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/AcumenWebSite/urls.py" />
         <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/map3D.html" />
-        <option value="$PROJECT_DIR$/acumenapp/models.py" />
+        <option value="$PROJECT_DIR$/AcumenWebSite/settings.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/AcumenIt/wsgi.py" />
+        <option value="$PROJECT_DIR$/AcumenIt/urls.py" />
         <option value="$PROJECT_DIR$/acumenapp/admin.py" />
-        <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/sponsers.html" />
+        <option value="$PROJECT_DIR$/AcumenIt/settings.py" />
+        <option value="$PROJECT_DIR$/acumenapp/static/css/HomeCsss/nav.css" />
+        <option value="$PROJECT_DIR$/acumenapp/models.py" />
+        <option value="$PROJECT_DIR$/acumenapp/static/js/EventJs/index.js" />
+        <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/events.html" />
+        <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/gallery.html" />
+        <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/forgot.html" />
+        <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/dashboard.html" />
         <option value="$PROJECT_DIR$/acumenapp/urls.py" />
         <option value="$PROJECT_DIR$/acumenapp/views.py" />
-        <option value="$PROJECT_DIR$/AcumenWebSite/settings.py" />
-        <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/events.html" />
+        <option value="$PROJECT_DIR$/acumenapp/static/js/RegisterJs/index.js" />
+        <option value="$PROJECT_DIR$/acumenapp/static/css/RegisterCss/style.css" />
         <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/registration.html" />
-        <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/team.html" />
+        <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/map3dhome.html" />
+        <option value="$PROJECT_DIR$/acumenapp/static/css/map3dHome/3d-style.css" />
+        <option value="$PROJECT_DIR$/acumenapp/static/css/HomeCsss/style.css" />
         <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/home.html" />
-        <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/dashboard.html" />
+        <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/sponsers.html" />
+        <option value="$PROJECT_DIR$/acumenapp/Templates/acumenapp/team.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="y" value="4" />
-    <option name="width" value="697" />
-    <option name="height" value="743" />
+    <option name="x" value="-9" />
+    <option name="width" value="940" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -172,108 +214,96 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
+              <item name="AcumenIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcumenIt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
+              <item name="AcumenIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcumenIt" type="462c0819:PsiDirectoryNode" />
               <item name="acumenapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
-              <item name="acumenapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
+              <item name="AcumenIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcumenIt" type="462c0819:PsiDirectoryNode" />
               <item name="acumenapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
+              <item name="AcumenIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcumenIt" type="462c0819:PsiDirectoryNode" />
               <item name="acumenapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboardCss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
+              <item name="AcumenIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcumenIt" type="462c0819:PsiDirectoryNode" />
               <item name="acumenapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
+              <item name="AcumenIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcumenIt" type="462c0819:PsiDirectoryNode" />
               <item name="acumenapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeImg" type="462c0819:PsiDirectoryNode" />
+              <item name="SponsersImg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
+              <item name="AcumenIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcumenIt" type="462c0819:PsiDirectoryNode" />
               <item name="acumenapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="TeamImg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
-              <item name="acumenapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeJs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
+              <item name="AcumenIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcumenIt" type="462c0819:PsiDirectoryNode" />
               <item name="acumenapp" type="462c0819:PsiDirectoryNode" />
               <item name="Templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
+              <item name="AcumenIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcumenIt" type="462c0819:PsiDirectoryNode" />
               <item name="acumenapp" type="462c0819:PsiDirectoryNode" />
               <item name="Templates" type="462c0819:PsiDirectoryNode" />
               <item name="acumenapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AcumenWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
-              <item name="AcumenWebSite" type="462c0819:PsiDirectoryNode" />
+              <item name="AcumenIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AcumenIt" type="462c0819:PsiDirectoryNode" />
+              <item name="AcumenIt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NITHISH MUDDAPPA\AcumenFinal\backend\AcumenIt\acumenapp\static\img\TeamImg" />
+      <recent name="C:\Users\NITHISH MUDDAPPA\AcumenFinal\backend\AcumenIt\acumenapp\static\img\EventsImg" />
       <recent name="C:\Users\NITHISH MUDDAPPA\GitFolder\AcumenWebSite\acumenapp\static\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\NITHISH MUDDAPPA\GitFolder\AcumenWebSite\acumenapp\static\js" />
-      <recent name="C:\Users\NITHISH MUDDAPPA\GitFolder\AcumenWebSite\acumenapp\Templates\acumenapp" />
-      <recent name="C:\Users\NITHISH MUDDAPPA\GitFolder\AcumenWebSite\acumenapp\static\css" />
-      <recent name="C:\Users\NITHISH MUDDAPPA\GitFolder\AcumenWebSite\acumenapp\static\babel" />
-      <recent name="C:\Users\NITHISH MUDDAPPA\GitFolder\AcumenWebSite\acumenapp\static\img" />
+      <recent name="C:\Users\NITHISH MUDDAPPA\AcumenFinal\backend\AcumenIt\acumenapp\Templates\acumenapp" />
+      <recent name="C:\Users\NITHISH MUDDAPPA\AcumenFinal\backend\AcumenIt\acumenapp\static\img" />
+      <recent name="C:\Users\NITHISH MUDDAPPA\AcumenFinal\backend\AcumenIt\acumenapp\static\css\SponsersScss" />
+      <recent name="C:\Users\NITHISH MUDDAPPA\AcumenFinal\backend\AcumenIt\acumenapp\static\css\SponsersCss" />
+      <recent name="C:\Users\NITHISH MUDDAPPA\AcumenFinal\backend\AcumenIt\acumenapp\static\css\RegisterCss" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,24 +333,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22163388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.273021" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20516963" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33764136" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -332,47 +363,127 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AcumenWebSite/urls.py">
+    <entry file="file://$PROJECT_DIR$/AcumenWebSite/settings.py" />
+    <entry file="file://$PROJECT_DIR$/acumenapp/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcumenIt/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#229#238#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/email_attch.html" />
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/dashboardCss/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcumenIt/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#637#669#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36-32/Lib/site-packages/Django-2.1.3-py3.6.egg/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="509" column="7" lean-forward="false" selection-start-line="509" selection-start-column="7" selection-end-line="509" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="120" column="18" lean-forward="false" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcumenIt/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/HomeCsss/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acumenapp/static/css/HomeCsss/nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/EventsCss/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/babel/EventsBabel/index.babel">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="7769">
+          <caret line="457" column="1" lean-forward="false" selection-start-line="457" selection-start-column="1" selection-end-line="457" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acumenapp/static/js/EventJs/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1836">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/MapCss/3d-style.css">
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/js/EventJs/EventIndex.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -380,73 +491,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/js/MapJs/3d-main.js">
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/eventsCss/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/img/MapImg/surroundings.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/RegisterCss/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/js/RegisterJs/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/RagisterSass/style.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/RegisterSass/style.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/babel/RegisterBabel/index.babel">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/SponsersCss/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/SponsersScss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-16885">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -468,15 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/dashboardCss/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/js/dashboardJs/index.js">
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/GalleryCss/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -484,7 +523,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/apps.py">
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/js/GalleryJs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/forgot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/js/HomeJs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="7" lean-forward="false" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/js/dashboardJs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="94" column="46" lean-forward="false" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/img/map3dImg/surroundings.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/js/map3dJs/3d-main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -494,120 +589,189 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acumenapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-273572998/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="5112" column="8" lean-forward="false" selection-start-line="5112" selection-start-column="8" selection-end-line="5112" selection-end-column="8" />
+        <state relative-caret-position="408">
+          <caret line="26" column="54" lean-forward="false" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acumenapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AcumenWebSite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        <state relative-caret-position="484">
+          <caret line="106" column="46" lean-forward="false" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/team.html">
+    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="97" column="2" lean-forward="true" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="2" />
+          <caret line="39" column="15" lean-forward="false" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/map3D.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1647">
-          <caret line="256" column="20" lean-forward="false" selection-start-line="256" selection-start-column="17" selection-end-line="256" selection-end-column="20" />
+        <state relative-caret-position="17">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/home.html">
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/RegisterSass/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/babel/RegisterBabel/index.babel">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/js/RegisterJs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/RegisterCss/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/map3dhome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="482" column="40" lean-forward="false" selection-start-line="482" selection-start-column="40" selection-end-line="482" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/map3dHome/3d-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="964" column="1" lean-forward="false" selection-start-line="964" selection-start-column="1" selection-end-line="964" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/map3dHome/3d-normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/homeCss/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/HomeCsss/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/SponsersScss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acumenapp/static/css/SponsersCss/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/events.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="690" column="83" lean-forward="false" selection-start-line="690" selection-start-column="83" selection-end-line="690" selection-end-column="83" />
-          <folding />
+        <state relative-caret-position="121">
+          <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+          <folding>
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/static/js/HomeJs/index.js">
+    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="39">
+          <caret line="268" column="57" lean-forward="false" selection-start-line="268" selection-start-column="57" selection-end-line="268" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/sponsers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#div#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1551955132242" expanded="false" signature="5776:5807" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/acumenapp/Templates/acumenapp/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="238" column="84" lean-forward="false" selection-start-line="238" selection-start-column="84" selection-end-line="238" selection-end-column="84" />
           <folding />
         </state>
       </provider>

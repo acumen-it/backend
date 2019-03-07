@@ -6,11 +6,12 @@ body{
   padding: 0px;
   background-color: black;
 }
-
-.butt{
-  margin-top: 25%;
-  margin-left: 45%;
+.main{
+  margin-left: 55em; 
+  margin-top: 25em;
 }
+
+
 
 #box{
   height: 200px;
@@ -132,11 +133,11 @@ body{
 
 .modal {
   text-align: center;
-  padding: 0!important;
+  
 }
 
 .modal:before {
-  content: '';
+  
   display: inline-block;
   height: 100%;
   vertical-align: middle;
@@ -147,4 +148,40 @@ body{
   display: inline-block;
   text-align: left;
   vertical-align: middle;
+}
+
+.main{
+  margin-left: 50%; 
+  margin-top: 25%;
+}
+
+Desktop Layout Sizes (Can range from 960-1140 depending on your layout.)
+@media only screen and (min-width:1025px) {
+  .main{
+   margin-top: 25%;
+  }
+}
+Tablet (Landscape)
+@media only screen and (min-width:769px) and (max-width:1024px) { 
+  .main{
+  margin-top: 25%;
+}
+}
+Tablet (Portrait)
+@media only screen and (min-width:581px) and (max-width:768px) {
+.main{ 
+  margin-top: 45%;
+}
+}
+Phone (Landscape)
+@media only screen and (min-width:321px) and (max-width:580px) { 
+ .main{
+  margin-top: 50%;
+}
+}
+Typical Phone (Portrait)
+@media only screen and (max-width:320px) { 
+ .main{
+  margin-top: 50%;
+}
 }
